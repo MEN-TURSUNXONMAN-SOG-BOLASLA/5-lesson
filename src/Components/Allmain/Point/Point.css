@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-700.woff2') format('woff2');
+}
+
+.Point {
+    margin-top: 100px;
+}
+
+.point__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.point__title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.point__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    width: 719px;
+    margin-left: 290px;
+}
+
+.point__title2 {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.point__text2 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    width: 719px;
+    margin: 0;
+}
+
+.point__text3 {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 493px;
+    color: #000;
+    margin: 0;
+}
+
+.point__list {
+    margin-top: 40px;
+
+}
+
+.point__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.point__item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.point__item:nth-child(5) {
+    margin-bottom: 60px;    
+}
+
+.point__div {
+    margin-left: 20px;
+}
+
+.point__link {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #00BAFC;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #00BAFC;
+    margin-left: 530px;
+}
+
+.point__link:hover {
+    background: white;
+    color: #00BAFC;
+    border: 1px solid #00BAFC;
+}
+
+.point__link:active {
+    background: #00BAFC;
+    color: white;
+    border: 1px solid #00BAFC;
+    transition: none;
+    opacity: 0.7;
+}

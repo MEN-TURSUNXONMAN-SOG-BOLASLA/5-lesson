@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-700.woff2') format('woff2');
+}
+
+.Services {
+    margin-top: 140px;
+}
+
+.services__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 719px;
+    margin-left: 280px;
+}
+
+.services__list {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.services__item {
+    padding: 40px;
+    box-shadow: 0px 8px 8px 0px #0000001A;
+    display: inline;
+    margin-left: 66px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.services__item:hover {
+    background-color: rgba(205, 204, 204, 0.338);
+}
+
+.services__item:active {
+    background-color: rgba(224, 224, 224, 0.338);
+    opacity: 0.8;
+    transition: none;
+}
+
+.services__item:nth-child(4) {
+    margin-bottom: -80px;
+    margin-right: -80px;
+}
+
+.services__item:nth-child(5) {
+    margin-top: 80px;
+    margin-left: -140px;
+}
+
+.services__title {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;    
+}
+
+.services__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Services__link {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #00BAFC;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #00BAFC;
+    margin-left: 500px;
+}
+
+.Services__link:hover {
+    background: white;
+    color: #00BAFC;
+    border: 1px solid #00BAFC;
+}
+
+.Services__link:active {
+    background: #00BAFC;
+    color: white;
+    border: 1px solid #00BAFC;
+    transition: none;
+    opacity: 0.7;
+}
+
+.Services__link2 {
+    color: #00BAFC;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 20px;
+}

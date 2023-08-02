@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../Assets/fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../Assets/fonts/open-sans-v35-latin-700.woff2') format('woff2');
+}
+
+.Footer {
+    background: #191919;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer__div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__copy {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.footer__Nullam {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 320px;
+    color: #fff;
+}
+
+.footer__Sayt {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__link:active {
+    text-decoration: none;
+    opacity: 0.7;
+    transition: none;
+}
+
+.footer__item {
+    margin-bottom: 15px;
+}
+
+.footer__biz {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__tg  {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.footer__fac {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.footer__insta {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+   margin-left: 5px;
+}
+
+.footer__link2 {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.footer__link2:hover {
+    opacity: 0.7;
+}
+
+.footer__link2:active {
+    opacity: 0.9;
+    transition: none;
+}
+
+.imgf {
+    margin-bottom: -5px;
+}

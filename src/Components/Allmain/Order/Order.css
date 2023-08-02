@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../Assets/fonts/open-sans-v35-latin-700.woff2') format('woff2');
+}
+
+.Order {
+    margin-top: 120px;
+    background: #00BAFC;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.order__container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.order__title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+.order__text {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 719px;
+    margin-left: 310px;
+    color: #ffff;
+    margin-bottom: 30px;
+}
+
+.order__img {
+    margin-left: 470px;
+}
